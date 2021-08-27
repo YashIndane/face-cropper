@@ -26,7 +26,7 @@ cap = cv2.VideoCapture(0)
 count = 0
 total_pics = 100
 
-# Collect 100 samples of your face from webcam input
+
 while True:
 
     ret, frame = cap.read()
